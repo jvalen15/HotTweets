@@ -11,7 +11,7 @@ body{
 .bb{
   font:15px/1.5 Georgia, Helvetica, sans-serif;
   margin:0;
-  background:url('../img/bb.png');
+  background:cyan;
   background-size:10% 10%;
 }
 
@@ -45,8 +45,8 @@ ul{
 /*Header styling*/
 
 header{
-  background: #2c1503;
-  color: tan;
+  background: #000000;
+  color: red;
   padding-top:5px;
   min-height:30px;
   border-bottom: brown 3px solid;
@@ -58,8 +58,8 @@ header{
 }
 
 #fadingheader{
-  background: #2c1503;
-  color: tan;
+  background: #000000;
+  color: red;
   padding-top:0px;
   min-height:15px;
   border-bottom: brown 3px solid;
@@ -73,10 +73,10 @@ header{
 }
 
 header a{
-  color: tan;
+  color: white;
   text-decoration:none;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 header img{
@@ -114,7 +114,7 @@ header .right{
 }
 
 header .highlight, header .current a{
-  color:brown;
+  color:red;
   font-weight: bold;
 
 }
@@ -128,7 +128,7 @@ header a:hover{
 
 #showcase{
   min-height:800px;
-  background:url('../img/sand.jpg') no-repeat;
+  background:url('../img/fire.jpg') no-repeat;
   background-size:100% 100%;
   text-align: center;
   color: #ffffff;
@@ -175,7 +175,7 @@ header a:hover{
 
 #showcase-2{
   min-height:500px;
-  background:url('../img/sand.jpg') no-repeat;
+  background:url('../img/fire.jpg') no-repeat;
   background-size:100% 100%;
   text-align: center;
   color: #ffffff;
@@ -185,7 +185,7 @@ header a:hover{
 
 #showcase-2 h1{
   margin-top: 150px;
-  font-size: 55px;
+  font-size: 75px;
   margin-bottom:0px;
   color: #cfcfcf;
   text-shadow: -10px 10px 0px #708090,
@@ -196,7 +196,7 @@ header a:hover{
 
 #showcase-2 h2{
   margin-top: 60px;
-  font-size: 20px;
+  font-size: 40px;
   margin-right:325px;
   color: #cfcfcf;
 
@@ -211,7 +211,7 @@ header a:hover{
 }
 
 #showcase-2 p{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #showcase-2 #date{
