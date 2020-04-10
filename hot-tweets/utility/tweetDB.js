@@ -13,20 +13,7 @@ module.exports.getTweets = function (){
     }
     return items;
 };
-var tweets = [{
-    author: "@BrianStone",
-    description: "this is a tweet",
-    picture: "",
-    publish_date:"4/10/20",
-    favorite_count:5
-},
-{
-    author: "@BrianStone",
-    description: "this is a tweet",
-    picture: "https://static01.nyt.com/images/2014/08/10/magazine/10wmt/10wmt-superJumbo-v4.jpg",
-    publish_date:"4/09/20",
-    favorite_count:5
-},
+var tweets = [
 {
     //https://twitter.com/BarackObama/status/1247555328365023238
     author: "@BarackObama",
@@ -50,7 +37,7 @@ var tweets = [{
     description: "",
     picture:"https://twitter.com/gnuman1979/status/1239523796542992387?ref_src=twsrc%5Etfw",
     publish_date:"03/16/20",
-    favorite_count:3000000
+    favorite_count:300000
 },
 {
     //https://twitter.com/kobebryant/status/1221276426164269056

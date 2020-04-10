@@ -13,6 +13,7 @@ router.get('/', function(req,res){
     //console.log(dd);
     //var mm = today.getMonth()+1;
     //var yyyy = today.getFullYear();
+    tweets.sort((a,b) => (a.favorite_count < b.favorite_count) ? 1 : -1);
     res.render('index',{tweets:tweets, ageVerified:req.session.ageVerified});
 });
 router.get('/verifyAge', function(req,res){
