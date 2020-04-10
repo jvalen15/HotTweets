@@ -1,16 +1,17 @@
 var Tweet = require('../model/Tweet');
 module.exports.getTweets = function (){
-    // let tweets = [];
-    // for(let i = 0; i < tweetDb.length; i++){
-    //     let item = new Tweet(
-    //         tweetDb[i].author,
-    //         tweetDb[i].contents,
-    //         tweetDb[i].picture,
-    //         tweetDb[i].favorite_count
-    //     );
-    //     tweets.push(item);
-    // }
-    return tweets;
+    let items = [];
+    for(var i = 0; i < tweets.length; i++){
+        var item = new Tweet(
+            tweets[i].author,
+            tweets[i].description,
+            tweets[i].picture,
+            tweets[i].publish_date,
+            tweets[i].favorite_count
+        );
+        items.push(item);
+    }
+    return items;
 };
 var tweets = [{
     author: "Brian Stone",
