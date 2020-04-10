@@ -126,56 +126,9 @@ header a:hover{
 
 /*Consistent Page Styling*/
 
-#showcase{
-  min-height:800px;
-  background:url('../img/fire.jpg') no-repeat;
-  background-size:100% 100%;
-  text-align: center;
-  color: #ffffff;
-}
-
-
-#showcase h1{
-  margin-top: 200px;
-  font-size: 35px;
-  margin-bottom:0px;
-  color: #cfcfcf;
-
-}
-
-#showcase h2{
-  margin-top: 150px;
-  font-size: 40px;
-  margin-bottom:0px;
-  color: #cfcfcf;
-  text-shadow: -10px 10px 0px #708090,
-                 -20px 20px 0px #696969,
-                 -30px 30px 0px #000000;
-
-}
-
-#showcase h3{
-  margin-top: 80px;
-  font-size: 25px;
-  color: #cfcfcf;
-  float: left;
-}
-
-#showcase p{
-  font-size: 20px;
-}
-
-#showcase #date{
-  margin-top: 80px;
-  font-size: 25px;
-  color: #cfcfcf;
-  float: left;
-  margin-left: 20px;
-}
-
 #showcase-2{
   min-height:500px;
-  background:url('../img/fire.jpg') no-repeat;
+  background:url('../img/fire-171229_1920.jpg') no-repeat;
   background-size:100% 100%;
   text-align: center;
   color: #ffffff;
@@ -212,6 +165,8 @@ header a:hover{
 
 #showcase-2 p{
   font-size: 30px;
+  color: black;
+  font-weight: bold;
 }
 
 #showcase-2 #date{
