@@ -176,4 +176,136 @@ var tweets = [
     picture:"https://pbs.twimg.com/media/EUdGAqsWkAIVfd1?format=jpg&name=small",
     publish_date:"03/31/20",
     favorite_count:23000
+},
+{
+    //https://twitter.com/Blaise_21/status/1257022773618147328
+    author: "@Blaise_21",
+    description: "A woman divorces her husband because he’s homophobic! Strength Smiling face with heart-shaped eyesRed heart",
+    picture:"https://pbs.twimg.com/media/EXHXi7QXYAA6wH1?format=jpg&name=small",
+    publish_date:"05/03/20",
+    favorite_count:3900
+}
+,
+{
+    //https://twitter.com/isahellya/status/1256364296105271298
+    author: "@isahellya",
+    description: "what was your favorite multiplication as a child mine was 7x7=49",
+    picture:"",
+    publish_date:"05/01/20",
+    favorite_count:373100
+}
+,
+{
+    //https://twitter.com/Anti/status/1256887043654852608
+    author: "@Anti",
+    description: "Reply with your latest meme",
+    picture:"https://pbs.twimg.com/media/EXFcGlFXgAAvCh_?format=jpg&name=small",
+    publish_date:"05/03/20",
+    favorite_count:1200
+}
+,
+{
+    //https://twitter.com/RespectfulMemes/status/1256625694748160002
+    author: "@RespectfulMemes",
+    description: "",
+    picture:"https://pbs.twimg.com/media/EXBuaKZX0Ak748z?format=jpg&name=small",
+    publish_date:"05/02/20",
+    favorite_count:84700
+},
+{
+    //https://twitter.com/ghoulrunnings/status/1256604762612654082
+    author: "@ghoulrunnings",
+    description: "what the hell",
+    picture:"https://pbs.twimg.com/media/EXBbXhaWkAEF-Hc?format=jpg&name=900x900",
+    publish_date:"05/02/20",
+    favorite_count:1600
+},
+{
+    //https://twitter.com/SuperMarioFact/status/1256747300019474432
+    author: "@SuperMarioFact",
+    description: "DK pulls up in his yellow convertible.",
+    picture:"https://pbs.twimg.com/media/EW5guWNUwAEok3i?format=png&name=small",
+    publish_date:"05/02/20",
+    favorite_count:6400
+},
+{
+    //https://twitter.com/slitthroatz/status/1255922054626508800
+    author: "@slitthroatz",
+    description: "i hate the “watch a movie” suggestion when i say im bored. shut up. i have no attention span. i need to chew on batteries",
+    picture:"",
+    publish_date:"04/30/20",
+    favorite_count:233200
+},
+{
+    //https://twitter.com/justindkim92/status/1255707362981146625
+    author: "@justindkim92",
+    description: "You are weak, you lack hatred.",
+    picture:"https://pbs.twimg.com/media/EW0rMH-U8AAxmKE?format=jpg&name=small",
+    publish_date:"04/29/20",
+    favorite_count:373800
+},
+{
+    //https://twitter.com/ShitpostBot5000/status/1256531414725603329
+    author: "@ShitpostBot5000",
+    description: "",
+    picture:"https://pbs.twimg.com/media/EXAYqdFXkAAeC44?format=jpg&name=small",
+    publish_date:"05/02/20",
+    favorite_count:24200
+},
+{
+    //https://twitter.com/SLAMonline/status/1257057344426475525
+    author: "@SLAMonline",
+    description: "What's the first thought that comes to your mind when you see this photo?",
+    picture:"https://pbs.twimg.com/media/EXH2-tpXkAMoVh3?format=jpg&name=small",
+    publish_date:"05/03/20",
+    favorite_count:1300
+},
+{
+    //https://twitter.com/mrfeelswildride/status/1256754947153997825
+    author: "@mrfeelswildride",
+    description: "",
+    picture:"https://pbs.twimg.com/media/EXDj9iyUEAA1mIW?format=jpg&name=medium",
+    publish_date:"05/03/20",
+    favorite_count:15800
+},
+{
+    //https://twitter.com/teddyfresh/status/1257066372229718019
+    author: "@teddyfresh",
+    description: "The ultimate dude @Gusbuckets ladies and gentleman",
+    picture:"https://pbs.twimg.com/media/EXH_Mu4XgAANe9x?format=jpg&name=900x900",
+    publish_date:"05/03/20",
+    favorite_count:820
+}
+,
+{
+    //https://twitter.com/towotz/status/1256520664619446274
+    author: "@towotz",
+    description: "",
+    picture:"https://pbs.twimg.com/media/EXAO4j5UcAEQ5CS?format=jpg&name=small",
+    publish_date:"05/02/20",
+    favorite_count:57600
+},
+{
+    //https://twitter.com/Struggle_Tweet/status/1256675006064373760
+    author: "@Struggle_Tweet",
+    description: "",
+    picture:"https://pbs.twimg.com/media/EXCbQMpUMAIWA5F?format=jpg&name=small",
+    publish_date:"05/03/20",
+    favorite_count:35600
+},
+{
+    //https://twitter.com/LiquidHbox/status/1257065500372279298
+    author: "@LiquidHbox",
+    description: "DAMN IT LEO",
+    picture:"https://pbs.twimg.com/media/EXH-aETXQAMgncp?format=jpg&name=small",
+    publish_date:"05/03/20",
+    favorite_count:1000
+},
+{
+    //https://twitter.com/TheYearIs20BC/status/1257041506738864128
+    author: "@TheYearIs20BC",
+    description: "Zoner mains arguing why their character is worse on WiFi",
+    picture:"https://pbs.twimg.com/media/EXHokxeX0AE49GD?format=jpg&name=small",
+    publish_date:"05/03/20",
+    favorite_count:543
 }];
