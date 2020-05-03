@@ -7,6 +7,15 @@
               width="30" height="30" class="d-inline-block align-top" alt="">
               Hot Tweets
             </a>
+            <a class="navbar-brand" href="/">
+              <% if(user){%>
+                <%= user.username %>
+                <img src="<%= user.photos[0].value%>">
+              <% } else{%>
+                <a href="/twitter/login"><img src="https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/icons/sign-in-with-twitter-gray-1-png-img-fullhd-medium.png.img.fullhd.medium.png">
+                </a>
+              <%}%>
+            </a>
           </nav>
     </body>
 </html>
