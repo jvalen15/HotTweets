@@ -308,4 +308,36 @@ var tweets = [
     picture:"https://pbs.twimg.com/media/EXHokxeX0AE49GD?format=jpg&name=small",
     publish_date:"05/03/20",
     favorite_count:543
+},
+{
+    //https://twitter.com/moxie2D/status/1257083682499620864
+    author: "@moxie2D",
+    description: "Smash fashion Samus Who's next?",
+    picture:"https://pbs.twimg.com/media/EXGeDhBUEAApiFl?format=jpg&name=small",
+    publish_date:"05/03/20",
+    favorite_count:1600
+},
+{
+    //https://twitter.com/elonmusk/status/1256855215568875520
+    author: "@elonmusk",
+    description: "Minecraft has amazing legs",
+    picture:"",
+    publish_date:"05/03/20",
+    favorite_count:197500
+},
+{
+    //https://twitter.com/djoats02/status/1256744174222807042
+    author: "@djoats02",
+    description: "",
+    picture:"https://pbs.twimg.com/media/EXDaKOgXYAUYWty?format=jpg&name=small",
+    publish_date:"05/03/20",
+    favorite_count:13700
+},
+{
+    //https://twitter.com/ComfortablySmug/status/1257090840746504194
+    author: "@ComfortablySmug",
+    description: "The Lincoln memorial is nice, but it's time to build the Trump monument",
+    picture:"https://pbs.twimg.com/media/EXIVdEQU8AAhSLB?format=jpg&name=small",
+    publish_date:"05/03/20",
+    favorite_count:800
 }];
