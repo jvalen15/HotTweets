@@ -14,7 +14,7 @@ router.get('/', function(req,res){
     //console.log(dd);
     //var mm = today.getMonth()+1;
     //var yyyy = today.getFullYear();
-    //console.log(req.user);
+    console.log(req.session.user);
     var user = req.session.user;
     tweets.sort((a,b) => (a.favorite_count < b.favorite_count) ? 1 : -1);
     res.render('index',{tweets:tweets, ageVerified:req.session.ageVerified, user:user});
@@ -85,6 +85,18 @@ router.get('/allTime', function(req,res){
     var user = req.session.user;
     tweets.sort((a,b) => (a.favorite_count < b.favorite_count) ? 1 : -1);
     res.render('index',{tweets:tweets, ageVerified:req.session.ageVerified, user:user});
+});
+router.post('/search', urlencodedParser, function(req,res){
+    var user = req.session.user;
+    var tweets = tweetDb.getTweets();
+    var searched = [];
+    for(var i = 0; i < tweets.length; i++){
+        if(tweets[i].description.includes(req.body.search)){
+            searched.push(tweets[i]);
+        }
+    }
+    console.log(req.body.search);
+    res.render('index',{tweets:searched, ageVerified:req.session.ageVerified, user:user})
 });
 router.get('/twitter/login', passport.authenticate('twitter'));
 

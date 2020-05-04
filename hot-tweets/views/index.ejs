@@ -18,11 +18,21 @@
             <div class="card-body">
             <h5 class="card-title"><%= tweets[i].author %></h5>
               <p class="card-text"><%= tweets[i].description%></p>
+              <p class="card-text"><a href><%= tweets[i].url%></a></p>
               <p class="card-text"><small class="text-muted"><%=tweets[i].favorite_count%> Favorites - <%= tweets[i].publish_date%></small></p>
             </div>
             <% if(tweets[i].picture){ %>
             <img src="<%=tweets[i].picture%>" class="card-img-top" alt="...">
             <% } %>
+            <!-- <% if(user){%>
+                <p>Replies</p>
+                <div class ="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Username</h5>
+                        <p class="card-text">comment text</p>
+                    </div>
+                </div>
+            <%}%> -->
           </div>
           <% } %>
         </div>

@@ -7,7 +7,8 @@ module.exports.getTweets = function (){
             tweets[i].description,
             tweets[i].picture,
             tweets[i].publish_date,
-            tweets[i].favorite_count
+            tweets[i].favorite_count,
+            tweets[i].url
         );
         items.push(item);
     }
@@ -20,7 +21,8 @@ var tweets = [
     description: "It’s World Health Day, and we owe a profound debt of gratitude to all our medical professionals. They’re still giving their all for us every day, at great risk to themselves, and we can’t thank them enough for their bravery and their service.",
     picture:"",
     publish_date:"04/07/20",
-    favorite_count:583800
+    favorite_count:583800,
+    url:"https://twitter.com/BarackObama/status/1247555328365023238"
 },
 {
     //https://twitter.com/jorvalentine/status/1043636849108037632
@@ -28,7 +30,8 @@ var tweets = [
     description: "alcohol: drank \n homies: hugged \n life: good \n fuck: sea world",
     picture:"",
     publish_date:"09/22/18",
-    favorite_count:427
+    favorite_count:427,
+    url:"https://twitter.com/jorvalentine/status/1043636849108037632"
 },
 {
     //https://twitter.com/gnuman1979/status/1239523796542992387
@@ -37,7 +40,9 @@ var tweets = [
     description: "",
     picture:"https://twitter.com/gnuman1979/status/1239523796542992387?ref_src=twsrc%5Etfw",
     publish_date:"03/16/20",
-    favorite_count:300000
+    favorite_count:300000,
+    url:"https://twitter.com/gnuman1979/status/1239523796542992387"
+
 },
 {
     //https://twitter.com/kobebryant/status/1221276426164269056
@@ -45,7 +50,8 @@ var tweets = [
     description: "Continuing to move the game forward @KingJames. Much respect my brother 💪🏾 #33644",
     picture:"",
     publish_date:"01/25/20",
-    favorite_count:2700000
+    favorite_count:2700000,
+    url:"https://twitter.com/kobebryant/status/1221276426164269056"
 },
 {
     //https://twitter.com/TheEllenShow/status/440322224407314432
@@ -53,7 +59,8 @@ var tweets = [
     description: "If only Bradley's arm was longer. Best photo ever. #oscars",
     picture:"https://pbs.twimg.com/media/BhxWutnCEAAtEQ6?format=jpg&name=small",
     publish_date:"03/02/14",
-    favorite_count:2200000
+    favorite_count:2200000,
+    url:"https://twitter.com/TheEllenShow/status/440322224407314432"
 },
 {
     //https://twitter.com/BTS_twt/status/1167830377508950016
@@ -61,7 +68,8 @@ var tweets = [
     description: "행복하게 해주셔서 감사합니다 💜",
     picture:"https://pbs.twimg.com/media/EDT3iASUcAAOnew?format=jpg&name=small",
     publish_date:"08/31/19",
-    favorite_count:2000000
+    favorite_count:2000000,
+    url:"https://twitter.com/BTS_twt/status/1167830377508950016"
 },
 {
     //https://twitter.com/BarackObama/status/887836712822558720
@@ -69,7 +77,8 @@ var tweets = [
     description: "John McCain is an American hero & one of the bravest fighters I've ever known. Cancer doesn't know what it's up against. Give it hell, John.",
     picture:"",
     publish_date:"01/20/17",
-    favorite_count:2000000
+    favorite_count:2000000,
+    url:"https://twitter.com/BarackObama/status/887836712822558720"
 }
 ,
 {
@@ -78,7 +87,8 @@ var tweets = [
     description: "Just saw that it’s Daisy Ridley’s birthday today, so here’s a study I did recently. Happy Birthday, Daisy!",
     picture:"https://pbs.twimg.com/media/EVQhWWFXQAI7C3G?format=jpg&name=900x900",
     publish_date:"04/10/20",
-    favorite_count:452
+    favorite_count:452,
+    url:"https://twitter.com/gibsoncomics/status/1248659669717057537"
 },
 {
     //https://twitter.com/BrandonPerna/status/1248719688026054657
@@ -86,7 +96,8 @@ var tweets = [
     description: "In addition to trademarking TOMpa Bay, Tom Brady has filed to trademark VasecTOMy. Men, get a vasecTOMy when you're ready to have just a little less in your balls.",
     picture:"https://pbs.twimg.com/media/EVRX350VAAAT6RX?format=jpg&name=small",
     publish_date:"04/10/20",
-    favorite_count:52
+    favorite_count:52,
+    url:"https://twitter.com/BrandonPerna/status/1248719688026054657"
 },
 {
     //https://twitter.com/SuperToughScene/status/1248688942729355264
@@ -94,7 +105,8 @@ var tweets = [
     description: "Sources confirm to ESPN that Donovan Mitchell's desire to get away from Rudy Gobert is 100% legit. Among other issues, Gobert would frequently kiss Mitchell on the lips at random times in the locker room. Many believe this is how Mitchell contracted the COVID-19 virus.",
     picture:"",
     publish_date:"04/10/20",
-    favorite_count:7400
+    favorite_count:7400,
+    url:"https://twitter.com/SuperToughScene/status/1248688942729355264"
 },
 {
     //https://twitter.com/skillsmcgill/status/1248561512798662656
@@ -102,7 +114,8 @@ var tweets = [
     description: "Could somebody please tell him that whatever I said, whatever I did, I didn’t mean it, I just want him back for good.",
     picture:"https://pbs.twimg.com/media/EVPIEwrU4AA0i-j?format=jpg&name=medium",
     publish_date:"04/10/20",
-    favorite_count:31900
+    favorite_count:31900,
+    url:"https://twitter.com/skillsmcgill/status/1248561512798662656"
 }
 ,
 {
@@ -111,7 +124,8 @@ var tweets = [
     description: "The reason Batman doesn’t cover his whole face is because he needs the police to know he’s white",
     picture:"",
     publish_date:"04/08/20",
-    favorite_count:498700
+    favorite_count:498700,
+    url:"https://twitter.com/RandallOtisTV/status/1247935679822209027"
 },
 {
     //https://twitter.com/WellAged_/status/1248096789439361025
@@ -119,7 +133,8 @@ var tweets = [
     description: "",
     picture:"https://pbs.twimg.com/media/EVIhaUUXsAUwOtM?format=jpg&name=small",
     publish_date:"04/08/20",
-    favorite_count:38200
+    favorite_count:38200,
+    url:"https://twitter.com/WellAged_/status/1248096789439361025"
 },
 {
     //https://twitter.com/haaniyah_/status/1247938531030454273
@@ -127,7 +142,8 @@ var tweets = [
     description: "I don’t know about you guys but I’m tired of living through historically significant events",
     picture:"",
     publish_date:"04/07/20",
-    favorite_count:305100
+    favorite_count:305100,
+    url:"https://twitter.com/haaniyah_/status/1247938531030454273"
 },
 {
     //https://twitter.com/_johnfarnsworth/status/1247359023327916033
@@ -135,7 +151,8 @@ var tweets = [
     description: "as my mental health deteriorates my lmaos get longer lmaoooooo",
     picture:"",
     publish_date:"04/06/20",
-    favorite_count:397200
+    favorite_count:397200,
+    url:"https://twitter.com/_johnfarnsworth/status/1247359023327916033"
 },
 {
     //https://twitter.com/rvnstrr/status/1246985799851106304
@@ -143,7 +160,8 @@ var tweets = [
     description: "white women being called Karen:",
     picture:"https://pbs.twimg.com/media/EU4u-UEU0AYflsl?format=jpg&name=small",
     publish_date:"04/05/20",
-    favorite_count:136100
+    favorite_count:136100,
+    url:"https://twitter.com/rvnstrr/status/1246985799851106304"
 },
 {
     //https://twitter.com/RindsstotheMax/status/1246067684782919680
@@ -151,7 +169,8 @@ var tweets = [
     description: "wine drunk is the best drunk. makes you horny & intellectual. a lust-filled academia.",
     picture:"",
     publish_date:"04/03/20",
-    favorite_count:269300
+    favorite_count:269300,
+    url:"https://twitter.com/RindsstotheMax/status/1246067684782919680"
 },
 {
     //https://twitter.com/MVD731/status/1246541783149903872
@@ -159,7 +178,8 @@ var tweets = [
     description: "Bruh I love Facebook memes",
     picture:"https://pbs.twimg.com/media/EUybJOkUMAAqnOs?format=jpg&name=small",
     publish_date:"04/04/20",
-    favorite_count:3100
+    favorite_count:3100,
+    url:"https://twitter.com/MVD731/status/1246541783149903872"
 },
 {
     //https://twitter.com/ericaxhenderson/status/1245843771104931841
@@ -167,7 +187,8 @@ var tweets = [
     description: "my only 3 quarantine moods",
     picture:"https://pbs.twimg.com/media/EUogTfEXsAcd1Np?format=jpg&name=small",
     publish_date:"04/02/20",
-    favorite_count:210500
+    favorite_count:210500,
+    url:"https://twitter.com/ericaxhenderson/status/1245843771104931841"
 },
 {
     //https://twitter.com/YahBoyJiraiya/status/1245040802209947655
@@ -175,7 +196,8 @@ var tweets = [
     description: "",
     picture:"https://pbs.twimg.com/media/EUdGAqsWkAIVfd1?format=jpg&name=small",
     publish_date:"03/31/20",
-    favorite_count:23000
+    favorite_count:23000,
+    url:"https://twitter.com/YahBoyJiraiya/status/1245040802209947655"
 },
 {
     //https://twitter.com/Blaise_21/status/1257022773618147328
@@ -183,7 +205,8 @@ var tweets = [
     description: "A woman divorces her husband because he’s homophobic! Strength Smiling face with heart-shaped eyesRed heart",
     picture:"https://pbs.twimg.com/media/EXHXi7QXYAA6wH1?format=jpg&name=small",
     publish_date:"05/03/20",
-    favorite_count:3900
+    favorite_count:3900,
+    url:"https://twitter.com/Blaise_21/status/1257022773618147328"
 }
 ,
 {
@@ -192,7 +215,8 @@ var tweets = [
     description: "what was your favorite multiplication as a child mine was 7x7=49",
     picture:"",
     publish_date:"05/01/20",
-    favorite_count:373100
+    favorite_count:373100,
+    url:"https://twitter.com/isahellya/status/1256364296105271298"
 }
 ,
 {
@@ -201,7 +225,8 @@ var tweets = [
     description: "Reply with your latest meme",
     picture:"https://pbs.twimg.com/media/EXFcGlFXgAAvCh_?format=jpg&name=small",
     publish_date:"05/03/20",
-    favorite_count:1200
+    favorite_count:1200,
+    url:"https://twitter.com/Anti/status/1256887043654852608"
 }
 ,
 {
@@ -210,7 +235,8 @@ var tweets = [
     description: "",
     picture:"https://pbs.twimg.com/media/EXBuaKZX0Ak748z?format=jpg&name=small",
     publish_date:"05/02/20",
-    favorite_count:84700
+    favorite_count:84700,
+    url:"https://twitter.com/RespectfulMemes/status/1256625694748160002"
 },
 {
     //https://twitter.com/ghoulrunnings/status/1256604762612654082
@@ -218,7 +244,8 @@ var tweets = [
     description: "what the hell",
     picture:"https://pbs.twimg.com/media/EXBbXhaWkAEF-Hc?format=jpg&name=900x900",
     publish_date:"05/02/20",
-    favorite_count:1600
+    favorite_count:1600,
+    url:"https://twitter.com/ghoulrunnings/status/1256604762612654082"
 },
 {
     //https://twitter.com/SuperMarioFact/status/1256747300019474432
@@ -226,7 +253,8 @@ var tweets = [
     description: "DK pulls up in his yellow convertible.",
     picture:"https://pbs.twimg.com/media/EW5guWNUwAEok3i?format=png&name=small",
     publish_date:"05/02/20",
-    favorite_count:6400
+    favorite_count:6400,
+    url:"https://twitter.com/SuperMarioFact/status/1256747300019474432"
 },
 {
     //https://twitter.com/slitthroatz/status/1255922054626508800
@@ -234,7 +262,8 @@ var tweets = [
     description: "i hate the “watch a movie” suggestion when i say im bored. shut up. i have no attention span. i need to chew on batteries",
     picture:"",
     publish_date:"04/30/20",
-    favorite_count:233200
+    favorite_count:233200,
+    url:"https://twitter.com/slitthroatz/status/1255922054626508800"
 },
 {
     //https://twitter.com/justindkim92/status/1255707362981146625
@@ -242,7 +271,8 @@ var tweets = [
     description: "You are weak, you lack hatred.",
     picture:"https://pbs.twimg.com/media/EW0rMH-U8AAxmKE?format=jpg&name=small",
     publish_date:"04/29/20",
-    favorite_count:373800
+    favorite_count:373800,
+    url:"https://twitter.com/justindkim92/status/1255707362981146625"
 },
 {
     //https://twitter.com/ShitpostBot5000/status/1256531414725603329
@@ -250,7 +280,8 @@ var tweets = [
     description: "",
     picture:"https://pbs.twimg.com/media/EXAYqdFXkAAeC44?format=jpg&name=small",
     publish_date:"05/02/20",
-    favorite_count:24200
+    favorite_count:24200,
+    url:"https://twitter.com/ShitpostBot5000/status/1256531414725603329"
 },
 {
     //https://twitter.com/SLAMonline/status/1257057344426475525
@@ -258,7 +289,8 @@ var tweets = [
     description: "What's the first thought that comes to your mind when you see this photo?",
     picture:"https://pbs.twimg.com/media/EXH2-tpXkAMoVh3?format=jpg&name=small",
     publish_date:"05/03/20",
-    favorite_count:1300
+    favorite_count:1300,
+    url:"https://twitter.com/SLAMonline/status/1257057344426475525"
 },
 {
     //https://twitter.com/mrfeelswildride/status/1256754947153997825
@@ -266,7 +298,8 @@ var tweets = [
     description: "",
     picture:"https://pbs.twimg.com/media/EXDj9iyUEAA1mIW?format=jpg&name=medium",
     publish_date:"05/03/20",
-    favorite_count:15800
+    favorite_count:15800,
+    url:"https://twitter.com/mrfeelswildride/status/1256754947153997825"
 },
 {
     //https://twitter.com/teddyfresh/status/1257066372229718019
@@ -274,7 +307,8 @@ var tweets = [
     description: "The ultimate dude @Gusbuckets ladies and gentleman",
     picture:"https://pbs.twimg.com/media/EXH_Mu4XgAANe9x?format=jpg&name=900x900",
     publish_date:"05/03/20",
-    favorite_count:820
+    favorite_count:820,
+    url:"https://twitter.com/teddyfresh/status/1257066372229718019"
 }
 ,
 {
@@ -283,7 +317,8 @@ var tweets = [
     description: "",
     picture:"https://pbs.twimg.com/media/EXAO4j5UcAEQ5CS?format=jpg&name=small",
     publish_date:"05/02/20",
-    favorite_count:57600
+    favorite_count:57600,
+    url:"https://twitter.com/towotz/status/1256520664619446274"
 },
 {
     //https://twitter.com/Struggle_Tweet/status/1256675006064373760
@@ -291,7 +326,8 @@ var tweets = [
     description: "",
     picture:"https://pbs.twimg.com/media/EXCbQMpUMAIWA5F?format=jpg&name=small",
     publish_date:"05/03/20",
-    favorite_count:35600
+    favorite_count:35600,
+    url:"https://twitter.com/Struggle_Tweet/status/1256675006064373760"
 },
 {
     //https://twitter.com/LiquidHbox/status/1257065500372279298
@@ -299,7 +335,8 @@ var tweets = [
     description: "DAMN IT LEO",
     picture:"https://pbs.twimg.com/media/EXH-aETXQAMgncp?format=jpg&name=small",
     publish_date:"05/03/20",
-    favorite_count:1000
+    favorite_count:1000,
+    url:"https://twitter.com/LiquidHbox/status/1257065500372279298"
 },
 {
     //https://twitter.com/TheYearIs20BC/status/1257041506738864128
@@ -307,7 +344,8 @@ var tweets = [
     description: "Zoner mains arguing why their character is worse on WiFi",
     picture:"https://pbs.twimg.com/media/EXHokxeX0AE49GD?format=jpg&name=small",
     publish_date:"05/03/20",
-    favorite_count:543
+    favorite_count:543,
+    url:"https://twitter.com/TheYearIs20BC/status/1257041506738864128"
 },
 {
     //https://twitter.com/moxie2D/status/1257083682499620864
@@ -315,7 +353,8 @@ var tweets = [
     description: "Smash fashion Samus Who's next?",
     picture:"https://pbs.twimg.com/media/EXGeDhBUEAApiFl?format=jpg&name=small",
     publish_date:"05/03/20",
-    favorite_count:1600
+    favorite_count:1600,
+    url:"https://twitter.com/moxie2D/status/1257083682499620864"
 },
 {
     //https://twitter.com/elonmusk/status/1256855215568875520
@@ -323,7 +362,8 @@ var tweets = [
     description: "Minecraft has amazing legs",
     picture:"",
     publish_date:"05/03/20",
-    favorite_count:197500
+    favorite_count:197500,
+    url:"https://twitter.com/elonmusk/status/1256855215568875520"
 },
 {
     //https://twitter.com/djoats02/status/1256744174222807042
@@ -331,7 +371,8 @@ var tweets = [
     description: "",
     picture:"https://pbs.twimg.com/media/EXDaKOgXYAUYWty?format=jpg&name=small",
     publish_date:"05/03/20",
-    favorite_count:13700
+    favorite_count:13700,
+    url:"https://twitter.com/djoats02/status/1256744174222807042"
 },
 {
     //https://twitter.com/ComfortablySmug/status/1257090840746504194
@@ -339,5 +380,6 @@ var tweets = [
     description: "The Lincoln memorial is nice, but it's time to build the Trump monument",
     picture:"https://pbs.twimg.com/media/EXIVdEQU8AAhSLB?format=jpg&name=small",
     publish_date:"05/03/20",
-    favorite_count:800
+    favorite_count:800,
+    url:"https://twitter.com/ComfortablySmug/status/1257090840746504194"
 }];
